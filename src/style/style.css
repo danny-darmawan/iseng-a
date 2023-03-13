@@ -1,0 +1,225 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  width: auto;
+  background-color: rgb(236, 247, 255);
+}
+
+.App .Navbar {
+  width: 100%;
+  height: 80px;
+  display: block;
+  overflow: auto;
+  background-color: rgb(131, 156, 156);
+  box-shadow: 0 4px 4px gray;
+}
+.App .Navbar .Navbar-item {
+  height: auto;
+  width: auto;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 60px;
+  display: block;
+  justify-content: space-between;
+}
+.App .Navbar .Navbar-item h1, .App .Navbar .Navbar-item h2 {
+  display: inline;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App .Navbar .Navbar-item h2 {
+  color: rgb(116, 117, 117);
+}
+.App .Navbar .Navbar-item input {
+  height: 30px;
+  width: 250px;
+  float: right;
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+.BuatCatatan-item {
+  margin-top: 30px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.BuatCatatan-item .Buatcatatan {
+  width: 40%;
+  border: 1px solid black;
+  background-color: rgb(108, 245, 255);
+  box-shadow: 0 0 10px gray;
+}
+.BuatCatatan-item .Buatcatatan h1 {
+  margin-left: 15px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.BuatCatatan-item .Buatcatatan h2 {
+  margin-right: 25px;
+  float: right;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.BuatCatatan-item .Buatcatatan input {
+  height: 20px;
+  width: 90%;
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+}
+.BuatCatatan-item .Buatcatatan textarea {
+  height: 100px;
+  width: 90%;
+  resize: none;
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.BuatCatatan-item .Buatcatatan button {
+  cursor: pointer;
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: 95%;
+  font-size: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: rgb(131, 156, 156);
+  border: 1px solid black;
+}
+.BuatCatatan-item .Buatcatatan button:hover {
+  background-color: rgb(116, 117, 117);
+}
+.BuatCatatan-item .Buatcatatan button:active {
+  background-color: rgb(116, 117, 117);
+}
+
+.catatan {
+  margin-top: 30px;
+  height: 45%;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.catatan h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+.catatan .Catatanaktif {
+  width: 40%;
+  height: 100%;
+}
+.catatan .Catatanarsip {
+  width: 40%;
+  height: 100%;
+}
+.catatan .Catatanaktif-place {
+  border: 2px solid black;
+  border-radius: 8px;
+  overflow: scroll;
+  height: 80%;
+  width: 100%;
+}
+.catatan .Catatanaktif-place h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(170, 170, 170);
+}
+.catatan .Catatanaktif-place .Catatanaktif-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 1px solid black;
+  background-color: rgb(108, 245, 255);
+  box-shadow: 0 0 10px gray;
+}
+.catatan .Catatanaktif-place .Catatanaktif-box h2 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.catatan .Catatanaktif-place .Catatanaktif-box h3 {
+  margin-left: 10px;
+  font-size: 15px;
+  color: gray;
+}
+.catatan .Catatanaktif-place .Catatanaktif-box p {
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+.catatan .Catatanaktif-place .Catatanaktif-box button {
+  cursor: pointer;
+  border: 1px solid black;
+  height: 25px;
+  width: 50%;
+  background-color: rgb(131, 156, 156);
+}
+.catatan .Catatanaktif-place .Catatanaktif-box button:hover {
+  background-color: rgb(116, 117, 117);
+}
+.catatan .Catatanaktif-place .Catatanaktif-box button:active {
+  background-color: rgb(116, 117, 117);
+}
+.catatan .Catatanarsip-place {
+  border: 2px solid black;
+  border-radius: 8px;
+  overflow: scroll;
+  height: 80%;
+  width: 100%;
+}
+.catatan .Catatanarsip-place h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(170, 170, 170);
+}
+.catatan .Catatanarsip-place .Catatanarsip-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 1px solid black;
+  background-color: rgb(108, 245, 255);
+  box-shadow: 0 0 10px gray;
+}
+.catatan .Catatanarsip-place .Catatanarsip-box h2 {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.catatan .Catatanarsip-place .Catatanarsip-box h3 {
+  margin-left: 10px;
+  font-size: 15px;
+  color: gray;
+}
+.catatan .Catatanarsip-place .Catatanarsip-box p {
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+.catatan .Catatanarsip-place .Catatanarsip-box button {
+  cursor: pointer;
+  border: 1px solid black;
+  height: 25px;
+  width: 50%;
+  background-color: rgb(131, 156, 156);
+}
+.catatan .Catatanarsip-place .Catatanarsip-box button:hover {
+  background-color: rgb(116, 117, 117);
+}
+.catatan .Catatanarsip-place .Catatanarsip-box button:active {
+  background-color: rgb(116, 117, 117);
+}/*# sourceMappingURL=style.css.map */
