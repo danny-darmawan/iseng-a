@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iseng-a/static/css/main.e6219c2c.css",
+    "main.js": "/iseng-a/static/js/main.9a2c6f6b.js",
+    "index.html": "/iseng-a/index.html",
+    "main.e6219c2c.css.map": "/iseng-a/static/css/main.e6219c2c.css.map",
+    "main.9a2c6f6b.js.map": "/iseng-a/static/js/main.9a2c6f6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6219c2c.css",
+    "static/js/main.9a2c6f6b.js"
+  ]
+}
